@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	font-family: monospace;
+	padding: 15px;
+	font-size: 32px;
+	
+}
+
+body{
+	background: #1C1C1C;
+	padding: 0px 110px 0px 110px;
+}
+
+#conteudo{
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+	height: 100vh;
+	background:#E8E8E8;
+	border-radius: 6px;
+	
+}
+
+#titulo{
+	text-align: center;
+	font-weight: 400;
+	font-size: 35px;
+}
+
+#jogo{
+	margin: 20px;
+	justify-content: center;
+	align-items: center;
+	display: flex;// fica um do lado do outro
+	
+}
+
+#Jogador{
+	background: #00CDCD;
+}
+
+#Sistema{
+	background: #0FE80C;
+}
+
+#Jogador, #Sistema{
+	box-shadow:  #CDC9C9 7px 7px 7px;
+	list-style: none;
+	position: relative;
+	width: 150px;
+	flex-grow: 1;
+	border-radius: 5px;
+	color: #fff;
+}
+
+
+i{
+	font-size: 80px;
+}
+
+#versus{
+
+	text-align: center;
+	font-size: 40px;
+	font-weight: 300;
+}
+
+
+#JEscolha, #SEscolha{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+#JEscolha li, #SEscolha li{
+	display: inline;
+}
+
+
+#JEscolha i , #SEscolha i{
+	display:inline;
+	opacity: 0.4;
+
+}
+
+#JEscolha i:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+#JPontos, #SPontos{
+	top: 10px;
+	right: 5px;
+	position: absolute;
+}
+
+#NomeJogador, #NomeSistema{
+	text-align: left;
+}
+
+/*#Resultado{
+	margin: 70px 70px 70px 70px;
+	padding: 20px;
+	font-size: 28px;
+	background: #1C1C1C;
+	border-radius: 5px;
+	box-shadow: #CDC9C9 7px 7px 7px;
+	color: #fff;
+}*/
+
+#Resultados{
+    height: 40%;
+    width: 80%;
+    background:#E8E8E8 ;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+
+#mensagens{
+    background: #000;
+    color: #fff;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 3rem;
+    height: 40%;
+   
+}
+#Resultado, #Sistema-Escolhas{
+	color: #fff;
+}
+#Resultado{
+	margin: 0 auto;
+	float: right;
+
+}

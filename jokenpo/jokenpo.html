@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Jokenpo</title>
+	<link rel="stylesheet" type="text/css" href="css/jokenpo.css">
+</head>
+<body>
+ 
+ 	<div id="conteudo">
+ 		<h2 id="titulo">JOKENPO</h2>
+ 		<div id="jogo">
+ 			<div id="Jogador">
+ 				<h3 id="NomeJogador">Livia</h3>
+ 				<div id="JPontos">0</div>
+
+ 				<div id="JEscolha">
+ 					<li id="JEscolha-1" onclick="insert(1)"><i class="fas fa-hand-rock" style="color: #FFDEAD"></i></li>
+				   	<li id="JEscolha-2" onclick="insert(2)"><i class="fas fa-hand-paper" style="color: #FFDEAD"></i></li>
+				   	<li id="JEscolha-3" onclick="insert(3)"><i class="fas fa-hand-peace" style="color: #FFDEAD"></i></li>
+ 				</div>
+ 			</div>
+
+ 			<div id="versus">VS</div>
+
+ 			<div id="Sistema">
+ 				<h3 id="NomeSistema">Sistema</h3>
+ 				<div id="SPontos">0</div>
+
+ 				<div id="SEscolha">
+ 					<li id="SEscolha-1"><a><i class="fas fa-hand-rock" style="color: #FFDEAD"></i></a></li>
+				   	<li id="SEscolha-2"><a><i class="fas fa-hand-paper" style="color: #FFDEAD"></i></a></li>
+				   	<li id="SEscolha-3"><a><i class="fas fa-hand-peace" style="color: #FFDEAD"></i></a></li>
+ 				</div>
+ 			</div>
+ 		</div>
+
+ 		<div class="Resultados">
+ 			<div id ="mensagens">
+ 			<div id ="Sistema-Escolhas">Jogadas do Sistema</div>
+ 			<div id ="Resultado">Resultado</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+
+	<script type="text/javascript" src="js/jokenpo.js"></script>
+	<script type="text/javascript" src="js/icones.js"></script>
+</body>
+</html>
